@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dollareto</string>
+    <string name="precio_dolar_default">Espera</string>
+    <string name="conversion_default">XX.XX</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="etiqueta_pesos_mexicanos">$ MXN</string>
+    <string name="etiqueta_dolares">$ USD</string>
+    <string name="cargando">Cargando...</string>
+    <string name="sin_internet">NO hay Internet</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="descripcion_20_pesos">Dolar persiguiendo a 20 Pesos</string>
+    <string name="banco_favorito">BANCO FAVORITO</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uanl.larabarron.dollareto.BancosActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_weight="10">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/logoBanco1"
+            android:layout_weight="50"
+            android:src="@drawable/banco_azteca_logo"
+            android:scaleType="centerInside"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/banco1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:text="@string/conversion_default"
+            android:layout_weight="50"
+            android:onClick="onClick" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_weight="10">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/logoBanco2"
+            android:layout_weight="50"
+            android:src="@drawable/hsbc_logo"
+            android:scaleType="centerInside"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/banco2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:text="@string/conversion_default"
+            android:layout_weight="50"
+            android:onClick="onClick" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_weight="10">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/logoBanco3"
+            android:layout_weight="50"
+            android:src="@drawable/bancomer_logo"
+            android:scaleType="centerInside"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/banco3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:text="@string/conversion_default"
+            android:layout_weight="50"
+            android:onClick="onClick" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_weight="10">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/logoBanco4"
+            android:layout_weight="50"
+            android:src="@drawable/banorte_logo"
+            android:scaleType="centerInside"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/banco4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:text="@string/conversion_default"
+            android:layout_weight="50"
+            android:onClick="onClick" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_weight="10">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/logoBanco5"
+            android:layout_weight="50"
+            android:src="@drawable/banamex_logo"
+            android:scaleType="centerInside"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/banco5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:text="@string/conversion_default"
+            android:layout_weight="50"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>
